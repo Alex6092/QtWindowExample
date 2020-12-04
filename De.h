@@ -12,7 +12,7 @@ public:
 	De();
 	De(int n);
 
-	void operator++(int);
+	virtual void operator++(int);
 	friend void operator+=(int &n, De &de);
 	void operator=(int n);
 	friend void operator<(int &n, De &de);

@@ -6,6 +6,9 @@
     <ClCompile Include="De.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DeHisto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="HeritageEx1.h" />
@@ -30,6 +33,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="De.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeHisto.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

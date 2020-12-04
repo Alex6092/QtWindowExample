@@ -17,11 +17,13 @@ void De::initializeRandom()
 
 De::De()
 {
+	totalScore = 0;
 	(*this)++;
 }
 
 De::De(int n)
 {
+	totalScore = 0;
 	currentScore = n;
 }
 
