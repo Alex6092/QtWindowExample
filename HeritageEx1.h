@@ -2,6 +2,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_HeritageEx1.h"
+#include "De.h"
 
 class HeritageEx1 : public QMainWindow
 {
@@ -15,5 +16,7 @@ public slots:
 
 private:
     Ui::HeritageEx1Class ui;
-	int scoreTotal;
+	//int scoreTotal;
+
+	De dd;
 };
